@@ -268,9 +268,9 @@ const App: React.FC = () => {
                 <select 
                    value={userGoal}
                    onChange={(e) => handleGoalChange(e.target.value)}
-                   className="w-full bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 text-green-800 dark:text-green-300 text-sm font-semibold rounded-lg focus:ring-green-500 focus:border-green-500 block pl-10 p-2.5 appearance-none cursor-pointer hover:bg-green-100 dark:hover:bg-green-900/30 transition-colors"
+                   className="w-full bg-green-50 dark:bg-gray-800 border border-green-200 dark:border-gray-700 text-green-800 dark:text-white text-sm font-semibold rounded-lg focus:ring-green-500 focus:border-green-500 block pl-10 p-2.5 appearance-none cursor-pointer hover:bg-green-100 dark:hover:bg-gray-700 transition-colors"
                 >
-                   {GOALS.map(g => <option key={g} value={g}>{g}</option>)}
+                   {GOALS.map(g => <option key={g} value={g} className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white">{g}</option>)}
                 </select>
              </div>
              

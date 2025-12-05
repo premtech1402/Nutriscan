@@ -72,6 +72,14 @@
       .animate-float-1 { animation: float-y 2s ease-in-out infinite; }
       .animate-float-2 { animation: float-y 2s ease-in-out infinite 0.5s; }
       .animate-float-3 { animation: float-y 2s ease-in-out infinite 1s; }
+
+      /* Dark mode fixes for Recharts */
+      .dark .recharts-legend-item-text {
+        color: #e5e7eb !important; /* gray-200 */
+      }
+      .dark .recharts-text {
+        fill: #e5e7eb !important;
+      }
     </style>
   <script type="importmap">
 {
@@ -82,8 +90,8 @@
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
     "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
-    "vite": "https://aistudiocdn.com/vite@^7.2.6"
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
