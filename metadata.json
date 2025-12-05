@@ -1,0 +1,7 @@
+{
+  "name": "NutriScan AI",
+  "description": "Scan food products or barcodes to instantly get nutritional analysis, macro breakdowns, and health scores using Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
